@@ -13,6 +13,8 @@ body {
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     background-color: #f6f7f2;
+    width: 512px;
+    height: 512px;
 }
 
 .name-bar {
