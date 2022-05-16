@@ -15,12 +15,6 @@ body {
     background-color: #f6f7f2;
 }
 
-.grid-item {
-    background-color: black;
-    width: 32px;
-    height: 32px;
-}
-
 .name-bar {
     height: 96px;
     background-color: #C40D0D;
@@ -31,15 +25,23 @@ body {
     border-radius: 16px;
 }
 
-.name-bar {
+.bottom-bar {
+    background-color: #C40D0D;
+}
+
+.menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin-bottom: -16px;
 }
 
 .name {
-    margin-bottom: -8px;
     padding: 0px;
     text-decoration: none;
     color: #FFB60A;
+}
+
+button {
+    margin: 0px;
 }
