@@ -52,23 +52,36 @@ body {
 }
 
 button {
+    transition: all 0.1s ease;
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
     background-color: #f6f7f2;
-    border: #920000 3px solid;
-    border-radius: 8px;
     height: 64px;
     width: 64px;
     padding: 0px;
     margin: 0px;
     text-align: center;
     font-size: 16px;
+    box-shadow: 0px 9px #2B2728;
+}
+
+button:hover {
+    transition:  0.5 ease;
+    background-color: rgb(169, 214, 255);
+}
+
+button:active {
+    background-color: rgb(169, 214, 255);
+    box-shadow: 0 5px #2B2728;
+    transform: translateY(4px);
 }
 
 button img {
     height: 75%;
     width: 75%;
 }
-
